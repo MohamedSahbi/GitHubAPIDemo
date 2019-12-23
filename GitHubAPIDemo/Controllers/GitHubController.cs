@@ -21,7 +21,7 @@ namespace GitHubAPIDemo.Controllers
         [HttpGet("lastcommit")]
         public async Task<IActionResult> GetLastCommit()
         {
-            var result = await _gitHubService.GetLastCommitFilesContent(directory:"CSV");
+            var result = await _gitHubService.GetLastCommitFilesContent(directory:"BlogPosts");
 
             return Ok(result);
         }
