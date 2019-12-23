@@ -18,11 +18,11 @@ This solution was made for .NET Core 2.1 and then tested with .NET Core 3.0. The
 
 ## How to use it?
 1. Clone the solution
-2. Find a GitHub repository that you are going to use with this demo. Add the repos name and the owner's name to the appsettings.json. It is even better to use the users secrets
+2. Find a GitHub repository that you are going to use with this demo. Add the repos name and the owner name to the appsettings.json. It is even better to use the users secrets
 3. GitHub oAuth Token is needed. You can generate a new personal access token for GitHub from here https://github.com/settings/tokens and add it to the appsettings.json
 4. This solution works also with GitHub entreprise. If you are using it with GitHub entreprise, make sure to change the RestUri and GraphQLUri values.
 
-Example of the configuration filled in the appsettings.json
+Example of the configuration filled in the appsettings.json for this repository https://github.com/MohamedSahbi/GitHubAPIDemo (*hint: the repository link has the owner name and the repository name*)
 
 ```json
   "GitHubConfiguration": {
