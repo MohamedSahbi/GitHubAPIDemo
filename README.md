@@ -6,7 +6,7 @@ This repository contains a sample demo for my blog post <b>Fix a gap in GitHub A
 - Configuration folder: It contains the configuration classes used for the injection of settings from appsettings.json file with the IOptions pattern
 - Controllers folder: It contains the API controllers
 - Services folder: It contains the main service of this demo; GitHub Service.
-- Models folder: It contains the models used by the GitHub Service. Most of them are models to map the JSON response of GitHub.
+- Models folder: It contains the models used by the GitHub Service. Most of them are models to map the Json response of GitHub.
 - Extensions folder: It contains stringExtensions that are needed for the GitHub Service.
 
 ## Third Party libraries
@@ -14,7 +14,7 @@ This repository contains a sample demo for my blog post <b>Fix a gap in GitHub A
 - Newtonsoft JSON https://www.nuget.org/packages/Newtonsoft.Json/
 
 ## Compatibility / Versions
-This solution was made for .NET Core 2.1 and then tested with .NET Core 3.0. The current solution's configuration is .NET Core 3.1. That is why I am using Newtonson JSON and not the built-in [System.Text.Json](https://docs.microsoft.com/en-us/dotnet/api/system.text.json?view=netcore-3.1) Namespace.
+This solution was made for .NET Core 2.1 and then tested with .NET Core 3.0. The current solution's configuration is .NET Core 3.1. That is why I am using Newtonsoft.Json and not the built-in [System.Text.Json](https://docs.microsoft.com/en-us/dotnet/api/system.text.json?view=netcore-3.1) Namespace.
 
 ## How to use it?
 1. Clone the solution
